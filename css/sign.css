@@ -1,0 +1,33 @@
+@charset
+
+
+#sign{}
+#sign .wrap{width: 1200px; height: 500px; margin: 0 auto; position: relative; margin-bottom: 200px; }
+#sign .sign_box{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 600px; height: auto; background-color: #fff; box-shadow:0 0 6px rgba(0, 0, 0, 0.75); margin: 0 auto; text-align: center; padding: 50px; border-radius: 5px; padding: auto 30px;}
+
+#sign .wrap .sign_box h1{padding-bottom: 15px; font-size: 30px; color:#5e889e;}
+#sign .sign_box h2{padding-bottom: 10px; font-size: 25px; font-weight: normal; color: #5c5c5c; }
+#sign .wrap .sign_box p{font-size: 14px; padding-bottom: 20px; color: #5c5c5c;}
+#sign .wrap .sign_box p a{ color:#5c5c5c; text-decoration:underline;}
+#sign .wrap .sign_box p:hover a{color: #5e889e;}
+
+
+#sign .wrap .sign_box h3{padding-bottom: 10px; font-weight: normal; font-size: 20px; text-align: right;  margin-right:15%}
+#sign .wrap .sign_box input{width: 300px; height: 30px; border: none; border-bottom: 1px solid #ccc;}
+#sign .wrap .sign_box input[placeholder]{height: 40px;}
+
+
+#sign .wrap .sign_box h4{font-size: 10px; font-weight: normal;  color:#5e889e; }
+
+
+
+#sign .wrap .sign_box h5 {display: block; border: none; width: 300px; line-height: 38px; height: 40px; border-radius:5px; background-color: #5e889e; cursor: pointer; font-size: 20px; transition: background-color 0.5s; color: #fff; margin: 0 auto;}
+
+#sign .wrap .sign_box h5:hover{background-color:#3e687e;}
+
+#sign .sign_box input[type*='submit']{border: none;;height: 40px; border-radius:5px; background-color: #5e889e; cursor: pointer; font-size: 20px; transition: background-color 0.5s; color: #fff; margin-top: 10px; margin-bottom: 10px;}
+
+#sign .sign_box input:hover[type*='submit']{background-color: #3e687e;}
+
+
+

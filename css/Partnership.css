@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+/* Partnership */
+#Partnership{}
+#Partnership .wrap{width: 1200px; margin: 0 auto; padding: 0 110px; height: 210px; margin-top: -56px;}
+#Partnership .wrap h2{font-size: 24px; color: #5c5c5c; font-weight: normal; text-align: center; padding-bottom: 37px; line-height: 20px;}
+#Partnership .wrap .txt_part{width: 980px; height: 150px;}
+#Partnership .wrap .txt_part p{font-size: 14px; color: #5c5c5c; }
+#Partnership .wrap .txt_part p:nth-child(1){ padding-bottom: 20px;}
+#Partnership .wrap .txt_part p:nth-child(3){padding-top: 13px;}
+
+
+/* Program */
+#Program{padding-top: 40px;}
+#Program .wrap{width: 1200px; height: 310px; margin: 0 auto; padding: 0 110px; display: flex; flex-wrap: wrap; justify-content: space-between; }
+#Program .wrap .box{width: calc(50% - 10px); padding: 30px; border: 1px solid #5e889e; border-radius: 2px; position: relative;}
+#Program .wrap .box h2{font-size: 18px; color:#5e889e; padding-bottom: 20px;}
+#Program .wrap .box h2 span{font-size: 24px;}
+#Program .wrap .box p{font-size: 14px; color: #5c5c5c; font-weight: bold;}
+#Program .wrap .box .btn{width: 250px; height: 40px; font-size: 16px; color: #fff; background-color: #5e889e; display: block; text-align: center; line-height: 40px; border-radius: 3px; position: absolute; bottom: 30px; cursor: pointer; transition: background-color 0.5s; font-weight: bold;}
+#Program .wrap .box img{width: 120px; height: 141px; background-size:cover; background-position: 50% 50%;  display: block; position: absolute; right: 30px; bottom: -10px;}
+#Program .wrap .box .btn:hover{background-color: #3e687e;}
+
+
+/* Representative */
+#Representative{padding-top:60px;}
+#Representative h2{text-align: center; font-size: 24px; color: #5c5c5c; font-weight:lighter; line-height: 20px; padding-bottom: 40px;} 
+#Representative h2 span{font-size: 24px; font-weight: bold;}
+#Representative .wrap{width: 1200px; padding: 0 210px; text-align: center; margin: 0 auto; padding: 0 190px; display: flex; flex-wrap: wrap; justify-content:left; align-items: center; margin-bottom: 40px;}
+#Representative .wrap img{ background-size: cover; background-position: 50% 50%;
+padding: 0 10px 20px; display: block;}
+#Representative .wrap img:nth-child(n+9){padding-bottom: 0;}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* 70헤더 + 320구름 + 160 = 550 */
+
+
+
+
+
+#about .title{width: 100%; height: 56px;  margin-top:-4px;}
+#about .title p{font-size:24px; color: #5c5c5c; font-weight:lighter; text-align: center;}
+#about .title span{font-weight: bold;}
+
+#about{width: 100%; height: 946px; margin-top:-56px;}
+
+#about .wrap{width: 1200px; margin: 0 auto; display: flex; padding: 0 110px; justify-content: space-between; flex-wrap:wrap;}
+
+#about .wrap .box{background-color: #fff; }
+
+#about .wrap .box:nth-child(1){width: 580px; height: 442px;}
+#about .wrap .box:nth-child(2){width: 380px; height: 442px; padding-top: 40px;}
+#about .wrap .box:nth-child(3){width: 380px;}
+#about .wrap .box:nth-child(4){width: 580px;}
+
+#about .wrap .box:nth-child(n+3){height:410px; margin-top: -20px;}
+
+#about .wrap .box h2{font-size: 14px; color: #5c5c5c; margin-bottom: 10px;}
+
+#about .wrap .box:nth-child(2) img{display: block; width: 100%; height:285px; background-size:cover; background-position: 50% 50%; background-repeat: no-repeat; /*background-image: url(../img/sub/plant.png);*/ }
+#about .wrap .box:nth-child(3) img{display: block; width: 100%; height: 285px; background-size:cover; background-position: 50% 50%; background-repeat: no-repeat; /*background-image: url(../img/sub/certificate.png);*/ }
